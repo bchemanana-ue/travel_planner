@@ -1,0 +1,38 @@
+# Переменные окружения и секреты
+.env
+.env.*
+!.env.example
+backend/.env
+
+# Виртуальное окружение
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Базы данных
+*.db
+*.sqlite
+*.sqlite3
+
+# Pytest
+.pytest_cache/
+
+# Alembic
+# Миграции не игнорируем!
+
+# IDE
+.idea/
+.vscode/
+
+# Системные файлы
+.DS_Store
+
+# Логи
+*.log
+
+# Docker
+docker-compose.override.yml
